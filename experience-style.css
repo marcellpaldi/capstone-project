@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+    font-family: 'IBM Plex Serif', sans-serif;
+    color: #434242;
+}
+body{
+    color: #434242;
+    font-family: 'Roboto', sans-serif;;
+}
+/*Desktop media query*/
+@media (min-width:1600px) {
+    .title{
+        font-size: 9vh;
+    }
+}
+/*Laptop media query*/
+@media (min-width:1200px) and (max-width:1600px) {
+    .title{
+        font-size: 10vh;
+    }
+}
+/*Tablet media query*/
+@media (min-width:481px) and (max-width:1200px){
+    .title{
+        font-size: 5vh;
+    }
+
+}
+/*Mobile media query*/
+@media (max-width:480px){
+    .title{
+        font-size: 4.5vh;
+    }
+    .headerLogo{
+        display: none;
+    }
+    header{
+        font-size:2.1vh;
+    }
+}
